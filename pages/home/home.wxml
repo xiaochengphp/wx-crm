@@ -1,0 +1,42 @@
+<!--pages/home.wxml-->
+<view class='home-container'>
+    <view class='crm-cat'>
+        <text class='cat-title'>个人办公</text>
+        <view class='crm-items'>
+            <view bindtap='go_wdqx'>
+                <image src='/images/home/wdqx.png'></image>
+                <text>我的去向</text>
+            </view>
+            <view bindtap='go_wdqx'>
+                <image src='/images/home/ygqx.png'></image>
+                <text>员工去向</text>
+            </view>
+            <view bindtap='go_wdqx'>
+                <image src='/images/home/wdrw.png'></image>
+                <text>我的任务</text>
+            </view>
+             <view></view>
+        </view>
+    </view>
+    <view class='crm-cat'>
+        <text class='cat-title'>客户管理</text>
+        <view class='crm-items'>
+            <view bindtap='go_wdqx'>
+                <image src='/images/home/qzkh.png'></image>
+                <text>潜在客户</text>
+            </view>
+            <view bindtap='go_wdqx'>
+                <image src='/images/home/khc.png'></image>
+                <text>公司客户池</text>
+            </view>
+            <view bindtap='go_wdqx'>
+                <image src='/images/home/gdjl.png'></image>
+                <text>跟单记录</text>
+            </view>
+            <view bindtap='go_wdqx'>
+                <image src='/images/home/dgzyh.png'></image>
+                <text>待跟单记录</text>
+            </view>
+        </view>
+    </view>
+</view>

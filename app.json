@@ -1,0 +1,13 @@
+{
+    "pages": [
+        "pages/welcome/welcome",
+        "pages/home/home",
+        "pages/wdqx/wdqx",
+        "pages/wdqx/dec/dec"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#efeff4",
+        "navigationBarTextStyle": "black"
+    }
+}

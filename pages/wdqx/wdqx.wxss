@@ -1,0 +1,13 @@
+/* pages/wdqx/wdqx.wxss */
+.car-item{
+    background-color: #fff;
+    font-weight: 600;
+    color: #32C197;
+    margin: 20rpx 20rpx;
+    padding: 40rpx;
+    border-radius: 10rpx;
+    box-shadow: 0px 1px 2px;
+}
+.carname{
+    color: #a9a9a9;
+}

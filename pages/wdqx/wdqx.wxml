@@ -1,0 +1,11 @@
+<!--pages/wdqx/wdqx.wxml-->
+<view class='lists'>
+    <block wx:for="{{ lists }}" wx:key="{{ index }}">
+        <view class='car-item' bindtap='showDec' data-id="{{ item.id }}">
+            <text>{{ item.title }}</text>
+            <text class='carname'>（{{ item.uname }}）</text>
+        </view>
+    </block>
+</view>
+
+

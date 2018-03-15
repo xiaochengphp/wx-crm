@@ -1,0 +1,36 @@
+<!--pages/wdqx/dec/dec.wxml-->
+<view class='dec-container'>
+    <view class='row'>
+        <view class='item'>
+            <view>
+                <text class='label'>客户名称</text>
+                <text class='con'>{{ res.title }}</text>
+            </view>
+        </view>
+        <view class='item'>
+            <view>
+                <text class='label'>进展阶段</text>
+                <text class='con'>{{ res.jinzhan }}</text>
+            </view>
+        </view>
+    </view>
+    <view class='row'>
+        <view class='item'>
+            <view>
+                <text class='label'>跟单方式</text>
+                <text class='con'>{{ res.type }}</text>
+            </view>
+        </view>
+        <view class='item'>
+            <view class='line-none'>
+                <text class='label'>跟单详情</text>
+                <text class='con'>{{ res.content }}</text>
+            </view>
+        </view>
+    </view>
+    <view class='row foot'>
+        <view class='item'>
+            <text class='label'>下次联系</text>
+        </view>
+    </view>
+</view>

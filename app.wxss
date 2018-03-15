@@ -1,0 +1,8 @@
+page {
+    background-color: #efeff4;
+    font-family: MicroSoft Yahei;
+}
+.color{
+    color: #16139C;
+}
+

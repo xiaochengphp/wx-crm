@@ -1,0 +1,157 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    margin: 0 80rpx;
+}
+
+.header-text {
+    font-size: 60rpx;
+    font-weight: 600;
+}
+
+.content {
+    align-items: center;
+    padding: 0 40rpx;
+}
+
+.scanning {
+    width: 100%;
+    height: 700rpx;
+    /* background: #84756F; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scanning .gif {
+    width: 460rpx;
+    height: 340rpx;
+    position: relative;
+    /* border: 1px solid red; *//* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.gif .smk {
+    width: 340rpx;
+    height: 340rpx;
+    animation: smk-am 6s ease 0s infinite;
+}
+
+.gif .ren {
+    width: 200rpx;
+    height: 200rpx;
+    position: absolute;
+    top: 80rpx;
+    left: 140rpx;
+}
+
+@keyframes smk-am {
+    0% {
+         transform: scale(1, 1); 
+    }
+    30%{
+        transform: scale(1, 1); 
+    }
+    35% {
+        transform: scale(0.9, 0.9);
+    }
+        70% {
+        transform: scale(0.9, 0.9);
+    }
+    100%{
+        transform: scale(1, 1);
+    }
+}
+
+.gif image {
+    width: 300rpx;
+    height: 300rpx;
+}
+
+.gif .line {
+    width: 6rpx;
+    height: 0rpx;
+    background-color: #16139c;
+    box-shadow: 0 0 8px rgba(5, 3, 62, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    animation: box 6s ease 0s infinite;
+}
+
+@keyframes box {
+    0% {
+        op: 50%;
+        left: 0%;
+        height: 0rpx;
+    }
+    35% {
+        top: 0%;
+        left: 0%;
+        height: 340rpx;
+    }
+
+    45% {
+        left: 100%;
+    }
+
+    55% {
+        top: 0%;
+        height: 340rpx;
+    }
+
+    70% {
+        top: 50%;
+        left: 100%;
+        height: 0rpx;
+    }
+}
+
+.content .tip {
+    font-size: 28rpx;
+    color: #84756f;
+    text-align: center;
+}
+
+.btn-open {
+    margin: 60rpx 0;
+}
+
+.btn-open .button {
+    width: 600rpx;
+    color: #fff;
+    height: 100rpx;
+    background: red;
+    background-color: #16139c;
+    border-radius: 50rpx;
+    box-shadow: 0 0 8px rgba(5, 3, 62, 0.8);
+    text-align: center;
+    line-height: 100rpx;
+    margin: auto;
+    border: none;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    height: 80rpx;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    font-size: 28rpx;
+    justify-content: space-between;
+}
+
+.footer .tip {
+    color: #84756f;
+    padding: 0 40rpx;
+}
+
+.sign {
+    padding: 0 40rpx;
+    color: #16139c;
+}

@@ -1,0 +1,26 @@
+<view class='welcome-container'>
+    <view class='header'>
+        <view class='header-text'>Welcome</view>
+        <view class='header-text'>To the New world</view>
+    </view>
+
+    <view class='content'>
+        <view class='scanning'>
+            <view class='gif'>
+                <view class='line'></view>
+                <image src='/images/sao.png' class='smk'></image>
+                <image src='/images/ren.png' class='ren'></image>
+            </view>
+        </view>
+        <view class='tip'>Shoot
+            <text class='color'>Your face</text>, open the Camera</view>
+        <view class='btn-open'>
+            <view class='button' catchtap='onRegister'>Start Use CRM</view>
+        </view>
+    </view>
+
+    <view class='footer'>
+        <view class='tip'>if you Existing account</view>
+        <view class='sign'>Sign in</view>
+    </view>
+</view>
